@@ -37,6 +37,7 @@ library
     , brick
     , directory
     , microlens
+    , microlens-th
     , process
     , text
     , vector
@@ -56,6 +57,7 @@ executable filebrowser-exe
     , directory
     , filebrowser
     , microlens
+    , microlens-th
     , process
     , text
     , vector
@@ -76,6 +78,7 @@ test-suite filebrowser-test
     , directory
     , filebrowser
     , microlens
+    , microlens-th
     , process
     , text
     , vector
