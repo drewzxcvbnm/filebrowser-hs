@@ -76,7 +76,8 @@ drawUI state
               Just e -> hCenter $ withDefAttr errorAttr $ txt $ Text.pack $ E.displayException e,
             hCenter $ txt "Up/Down: select",
             hCenter $ txt "/: search, Ctrl-C or Esc: cancel search",
-            hCenter $ txt "Enter: change directory or select file",
+            hCenter $ txt "Enter: change directory or open file",
+            hCenter $ txt "Ctrl-N: create new file. Del: remove selected file",
             hCenter $ txt "Esc: quit"
           ]
 
